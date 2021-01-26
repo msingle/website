@@ -5,7 +5,7 @@ date: 2021-01-26T06:00:00-07:00
 tags: ['post', 'podcast']
 authors: ['bryan-cantrill', 'jessie-frazelle', 'steve-tuck']
 description: |
-  On this episode of On the Metal, we interview Ken Shirriff, long time computer
+  On this episode of On the Metal, we interview Ken Shirriff, long-time computer
   programmer, retro computer aficionado, analog computer programmer, and miner 
   of bitcoin by hand. Join us as we talk about breaking
   down silicon wafers, restoring old computers, what computers Ken grew up with,
@@ -15,7 +15,7 @@ iframe_link: https://share.transistor.fm/e/cfa2173f
 transcript_file: 013-ken-shirriff.txt 
 ---
 
-On this episode of On the Metal, we interview Ken Shirriff, long time computer
+On this episode of On the Metal, we interview Ken Shirriff, long-time computer
 programmer, retro computer aficionado, analog computer programmer, and miner of 
 bitcoin by hand. Join us as we talk about breaking
 down silicon wafers, restoring old computers, what computers Ken grew up with,
