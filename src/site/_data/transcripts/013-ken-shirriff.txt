@@ -286,7 +286,7 @@ Datapoint also talked to their TI supplier and said, "Could you put this all on 
 00:36:54 Ken: Nowadays your computers have billions of transistors and you just don't worry about them failing.
 00:37:00 Bryan: Well, we worry about them failing, but especially as the speeds get so high, you do actually need a lot, but it's the underlying transistors are much more reliable certainly. We still definitely need-- Well, you were around at Sun for the Ecache Parity, right?
 00:37:14 Ken: Oh, yes. That was just a nightmare.
-00:37:17 Bryan: Oh, yes. There were so many. There were a lot of problems with that. Turns out having radioactive boron in [unintelligible 00:37:24] a very bad idea, but it's interesting, this analog machine, did you guys actually- did you get that working?
+00:37:17 Bryan: Oh, yes. There were so many. There were a lot of problems with that. Turns out having radioactive boron in your SRAM is a very bad idea, but it's interesting, this analog machine, did you guys actually- did you get that working?
 00:37:29 Ken: Unfortunately, it didn't come with any documentation.
 00:37:32 Bryan: Oh, no.
 00:37:33 Ken: I've been reading all these old books from the 1960s on analog computers, and we've also been tracing up the circuitry trend to understand how it works. I've implemented some simple differential equations. I managed to get a nice sine wave out of a second-order differential equation.
