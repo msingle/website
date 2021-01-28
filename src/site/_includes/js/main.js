@@ -95,11 +95,19 @@ var audio_els = document.querySelectorAll('audio.with-transcript');
     // set up the scroll tether to audio timecode
     audio_el.addEventListener('timeupdate', function(){
         var current_time = audio_el.currentTime;
-        var current_hours = formatNumber(parseInt(current_time / 360, 10));
+        var current_hours = formatNumber(parseInt(current_time / 3600, 10));
         var current_minutes = formatNumber(parseInt(current_time / 60, 10));
         var current_seconds = formatNumber(parseInt(current_time % 60));
 
+        if (current_minutes >= 120) {
+            current_minutes = formatNumber(current_minutes - 120);
+        } else if (current_minutes >= 60) {
+            current_minutes = formatNumber(current_minutes - 60);
+        }
+
         var timecode_index = current_hours + ":" + current_minutes + ":" + current_seconds;
+
+        console.log(timecode_index);
 
         if (typeof timecodes[timecode_index] !== 'undefined'){
             if (!timecodes[timecode_index]['el'].classList.contains('current')){
