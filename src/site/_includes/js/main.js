@@ -107,8 +107,6 @@ var audio_els = document.querySelectorAll('audio.with-transcript');
 
         var timecode_index = current_hours + ":" + current_minutes + ":" + current_seconds;
 
-        console.log(timecode_index);
-
         if (typeof timecodes[timecode_index] !== 'undefined'){
             if (!timecodes[timecode_index]['el'].classList.contains('current')){
                 var current = document.querySelector('.current');
