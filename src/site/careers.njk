@@ -6,14 +6,27 @@ layout: default
 pageClass: page careers
 ---
 
-We are currently hiring for hardware engineering, software engineering, and product engineering and design roles.
-
-Before applying please read our <a href="/about">principles of operation</a> to get a sense of our mission, our principles and our values — we are looking for individuals who align with these principles.
+At Oxide, we are a <a href="/about">principled company</a> with an
+outrageously ambitious technical vision: <a
+href="https://www.youtube.com/watch?v=vvZA9n3e5pc">to build a rack-scale
+computer</a> that, through co-design of hardware and software, provides a
+seamless public-cloud-like experience to on-premises environments.  Achieving
+this vision requires work spanning the complete computing stack, including
+(but not limited to!) rack design, chassis design, board design, switch
+design, microcontroller firmware, boot software, host operating system,
+network operating system, distributed storage, distributed control plane,
+RESTful user APIs, and a web-based user-interface.  We are currently hiring
+across the team, and while we have some concrete job descriptions for those
+areas in which we are currently most urgently expanding, don't assume that
+these are the only areas in which we're hiring; if you are interested in a
+slice of this problem, but you don't see something specific listed, don't
+hesitate to <a href="https://forms.gle/gm8Rtmz1vxsesmUY6">apply</a>!
 
 <div>
   <ul>
-    {%- for item in collections.job | reverse -%}
+    {%- for item in collections.newjd | reverse -%}
       {% include 'components/teaser-job.njk' %}
     {%- endfor -%}
   </ul>
 </div>
+

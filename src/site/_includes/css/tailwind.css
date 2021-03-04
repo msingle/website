@@ -525,6 +525,16 @@ Base styles for lists
     @apply list-outside;
 }
 
+.page.career .copy ul li,
+.page.career .copy ol li {
+    @apply ml-6;
+}
+
+.page.career .copy ul li {
+    @apply list-disc;
+    @apply list-outside;
+}
+
 /*
 Navigation links
  */
